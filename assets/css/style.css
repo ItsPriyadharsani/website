@@ -2,6 +2,15 @@ body{
     font-family: 'Tilt Neon', sans-serif;
    
 }
+
+html,body{
+    width:100%;
+    height:100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
 .image{
     background-image: url(../img/bg3.jpg);
     background-size:cover;
@@ -91,16 +100,29 @@ color:orange !important;
     bottom: 13px;
    
 }
-.container{
+.contt{
     background-color: #151b54;
     height: 75px;
     width: 1050px;
 }
 
 .parag{
-    width: 51% !important;
+    width: 80% !important;
+    margin-left: 148px !important;
+    position: relative;
+    bottom: 55px;
+}.parag1{
+    position: relative;
+    left:127px;
+    width: 80% !important;
+    bottom: 55px;
 }
-
+.parag2{
+    position: relative;
+    left:127px;
+    width: 80% !important;
+    bottom: 55px;
+}
     .box {
         height: 135px;
         width: 241px;
@@ -109,15 +131,268 @@ color:orange !important;
         border-radius: 3px;
         
      
+}.fa-globe{
+color:#ff8c00 !important;
+font-size: 28px !important;
 }
 .box1{
     background-color:#151b54;
-    height: 101px;
-    width: 139px;
+    height: 120px;
+    width: 149px;
     position: relative;
-    bottom: 110px;
+    bottom: 140px;
     
 }
 .box1:hover{
     background-color: orange;
+}
+.bg-img{
+    height: 298px;
+    width: 540px;
+}
+.image2{
+background-image: url(../img/bg1.jpg);
+height: 350px !important;
+width: 540px !important;
+background-color: #002966;
+background-position: center;
+position: relative;
+top:30px;
+}
+.image-overlay1{
+    background-color:rgba(10, 3, 70, 0.267)!important;
+    height: 350px !important;
+    width: 540px !important; 
+}
+.display-5{
+    color:#151b54 !important;
+    font-size:50px !important;
+   
+}.color{
+    background-color: orange;
+    height: 160px;
+    width:540px;
+}.display-6{
+    color:#151b54 !important; 
+    font-size:25px !important;
+}
+.fa-bars {
+    color:#002966 !important;
+    font-size:25px !important;
+   }
+   .card:hover{
+    background-color: orange;
+
+   }.fa-mug-saucer{
+    color: #ff8c00;
+    font-size: 52px;
+    position: relative;
+    top: 36px;
+    left: 38px;
+   }.fa-brush{
+    color: #ff8c00;
+    font-size: 52px;
+    position: relative;
+    top: 36px;
+    left: 38px;
+   }.fa-camera{
+    color: #ff8c00;
+    font-size: 52px;
+    position: relative;
+    top: 36px;
+    left: 38px;
+   }
+ .icon{
+    color:orange !important;
+ }.fa-house-chimney{
+    font-size: 62px;
+    color: #151b54;
+    position: relative;
+    left: 48px;
+    top: 43px;
+ }
+ .up{
+    position: relative;
+    bottom:39px;
+ }
+ .textt{
+    font-family: 'Dancing Script', cursive;
+    font-size: 26px !important;
+ }
+ .scroll{
+    max-height: 190px;
+    border:2px solid #002966;
+    display:flex;
+    overflow-y:auto!important;
+    
+ }
+ .item{
+    min-width: 290px;
+    height: 140px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 21px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 50px !important;
+    margin-top: 20px !important;
+ }#roof{
+    background-color: #002966;
+    height: 1230px;
+ }.display-7{
+    color: white;
+ }.texxt{
+    color: white !important;
+ }
+.fa-solidd{
+    font-size:65px !important;
+    color:#002966 !important;
+    
+}.item:hover{
+    background-color: orange;
+}.box4{
+background-color: white !important;
+width: 1020px;
+height: 500px;
+border:2px solid #002966;
+}
+.img6{
+    width: 450px !important;
+    height: 450px !important;
+}.yellow{
+    font-size: 25px !important;
+    color:#ff8c00;
+}
+.con1{
+    height: 270px !important;
+}.colors{
+    background-color: #ff8c00;
+    height: 97px;
+  width: 448px;
+}.form-control{
+    width: 348px !important;
+}
+.forms{
+    background-color: #151b54 !important;
+    width: 448px;
+    height: 416px;
+}.sub{
+    width: 217px !important;
+    background-color: #ff8c00 !important;
+    text-align: center;
+    margin-left: 116px !important;
+}.display-9{
+    margin-top: 20px !important;
+}.icon-img{
+    width: 112px !important;
+    height: 95px !important;
+}.backg{
+    background-color: #151b54;
+    height: 578px;
+    width: 600px;
+}.backgg{
+    height: 578px;
+    width: 540px;
+}.headss{
+    color:white !important;
+}.fa-square-phone{
+    color:#ff8c00 !important;
+    font-size: 50px !important;
+}.fa-user{
+    color:#ff8c00 !important;
+    font-size: 50px !important;
+}.fa-video{
+    color:#ff8c00 !important;
+    font-size: 90px !important;
+}.faf{
+    margin-left: 520px !important;
+}.bgcol{
+    background-color: #151b54;
+    height: 119px;
+    width: 129px;
+}.rest{
+    margin-left: 130px;
+    position: relative;
+    bottom:20px;
+}.fa-regular{
+    color:#ff8c00;
+    font-size: 23px;
+}.button3{
+    background-color: #ff8c00;
+    width: 220px;
+    height: 41px;
+    border: 1px solid #ff8c00;
+    border-radius: 8px;
+    color:#151b54;
+}.fonts{
+    color:#151b54 !important;
+}.button4{
+    background-color: #ff8c00;
+    width: 158px;
+    height: 41px;
+    border: 1px solid #ff8c00;
+    border-radius: 8px;
+    color: white;
+    margin-left: 27px;
+}.but{
+    margin-left: 120px;
+}.con-icon{
+   
+    background-color: #ff8c00;
+    width: 270px;
+    height: 32px;
+   
+}.faff{
+    color:white !important;
+    font-size: 21px;
+    margin-left: 40px;
+ 
+}.con-icon:hover{
+    display: none;
+}.fafs{
+    color:#ff8c00;
+    font-size: 39px;
+    margin-left: 90px;
+}.text-home{
+    font-size: 20px;
+    color:#151b54 !important;
+}.cols-up{
+position: relative;
+bottom:230px;
+}.homes{
+    width: 40% !important;
+}.test {
+    width: 80% !important;
+}.homess{
+    width: 25% !important;
+}.boxex{
+    height: 143px;
+    width: 354px;
+    border: 1px solid #ff8c00;
+    position: relative;
+    bottom: 84px;
+    left: 37px;
+}.said{
+    position: relative;
+    bottom:120px;
+}.last{
+    background-color: #151b54;
+    height:480px ;
+}.emails {
+    background-color: white;
+    width: 226px;
+    height: 40px;
+    margin-top: 20px;
+}.sus{
+    background-color: #ff8c00;
+    color:white !important;
+    margin-top:20px ;
+    width: 150px;
+    height: 40px;
+}.fon{
+    margin-top: 20px;
+}.wite{
+    width: 1300px;
+    height: 1px;
+    background-color: white;
 }
